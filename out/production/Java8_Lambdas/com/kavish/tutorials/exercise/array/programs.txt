@@ -1,0 +1,5 @@
+Arrays Programmic Questions
+------------------------------
+1)	WAP to to replace ‘ ’ char in array with ‘%’,’2’,’0’.Remember to not use a new array and the array is fixed sized with four buffer values(‘-’)
+Char inputArray[] = new char[]{‘1’,’3’,’5’,’’,’&’,’*’,’ ’, ‘9’,’-’ ,’-’ ,’-’ ,’-’}.
+2)
