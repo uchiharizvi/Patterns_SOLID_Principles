@@ -1,9 +1,0 @@
-*Use Template Pattern to achieve Liskov Subs principle/Open CLosed Principle/Single Responsibility Principle/Interface Seg Principle.
-
-We are demonstrating Liskov-Sub Principle in following Vehicle example
-Classes and Interfaces being used
---------------------------------
-1) Class InsertionSort,MergeSort or any new Functionality needs to be extended(Open)
-2) Interface Sorted(To be implemented by every new functionality)
-3) Class SorterManager responsible to interact with sorted interface
-4) Client code responsible to interact with SorterManager

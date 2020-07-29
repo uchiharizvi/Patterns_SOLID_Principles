@@ -1,0 +1,9 @@
+*Use Template Pattern to achieve Liskov Subs principle/Open CLosed Principle/Single Responsibility Principle/Interface Seg Principle.
+
+We are demonstrating Liskov-Sub Principle and Interface Seg Principle in following Vehicle example
+Classes and Interfaces being used
+--------------------------------
+1) Two Interfaces defining specific Methods (Also Interface Seg Principle) NormalVehicle and Electric Vehicle
+2) Concrete Classes NormalCar and Electric Car Implementing specific interfaces.
+3) Client Code to interact with Concrete Classes
+4) Template Pattern Allows to create separate Templates(Specific Interfaces) as per need

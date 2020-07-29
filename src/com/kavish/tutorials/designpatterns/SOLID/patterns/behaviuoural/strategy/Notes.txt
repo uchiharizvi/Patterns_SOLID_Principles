@@ -1,0 +1,11 @@
+Strategy Pattern Implementation
+Classes and Interfaces
+-----------------------
+1) Strategy Interface with abstract method Operation
+2) Concrete Classes Implementing Strategy(Multiply,Divide, etc)--any new functionality
+3) Manager Class to interact with client code
+4) Client Code(AppDemo) calls Manager to Define strategy and then call operation. Based on the Strategy, the concrete class will be invoked
+
+ClientCode-->Manager(HighLevel)-HAS-A->StrategyInterface(Abstract layer)-->Implemented Concrete Class
+
+*Implements Open Closed Principle
