@@ -1,7 +1,11 @@
-Use Strategy Pattern to achive open/closed principle in following sorting example
-Classes and Interfaces being used
---------------------------------
-1) Class InsertionSort,MergeSort or any new Functionality needs to be extended(Open)
-2) Interface Sorted(To be implemented by every new functionality)
-3) Class SorterManager responsible to interact with sorted interface
-4) Client code responsible to interact with SorterManager
+Strategy Pattern Implementation
+Classes and Interfaces
+-----------------------
+1) Strategy Interface with abstract method Operation
+2) Concrete Classes Implementing Strategy(Multiply,Divide, etc)--any new functionality
+3) Manager Class to interact with client code
+4) Client Code(AppDemo) calls Manager to Define strategy and then call operation. Based on the Strategy, the concrete class will be invoked
+
+ClientCode-->Manager(HighLevel)-HAS-A->StrategyInterface(Abstract layer)-->Implemented Concrete Class
+
+*Implements Open Closed Principle

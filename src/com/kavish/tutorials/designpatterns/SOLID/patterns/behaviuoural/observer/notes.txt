@@ -1,0 +1,14 @@
+Observer Patterns
+*Supports Open Closed Principle
+Observer and Subjects define 1:M relationship
+Whenever any data is changed , all Observers notify the subjects
+Interfaces and Classes Used
+-------------------------------
+1) Observer Interface and its Implementation
+2) Subject Interface and its Implementation
+3) Client Code
+
+Client Code interacts with Subject.
+Client code specifies the subject to the observer. Observer registers itself as observer to subject
+Subjects for any value change notify all the observers registered
+Observers can choose to any execution after notification
